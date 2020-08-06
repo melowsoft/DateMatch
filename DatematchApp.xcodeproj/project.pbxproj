@@ -13,6 +13,12 @@
 		CE8E712624DBD2BA00A6D6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E712524DBD2BA00A6D6E4 /* Assets.xcassets */; };
 		CE8E712924DBD2BA00A6D6E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E712824DBD2BA00A6D6E4 /* Preview Assets.xcassets */; };
 		CE8E712C24DBD2BA00A6D6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8E712A24DBD2BA00A6D6E4 /* LaunchScreen.storyboard */; };
+		CE8E713A24DBD31700A6D6E4 /* FiraSansCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E713424DBD31700A6D6E4 /* FiraSansCondensed-Regular.ttf */; };
+		CE8E713B24DBD31700A6D6E4 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E713624DBD31700A6D6E4 /* Nunito-Regular.ttf */; };
+		CE8E713C24DBD31700A6D6E4 /* PaytoneOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E713824DBD31700A6D6E4 /* PaytoneOne-Regular.ttf */; };
+		CE8E713D24DBD31700A6D6E4 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8E713924DBD31700A6D6E4 /* OFL.txt */; };
+		CE8E713F24DBD48100A6D6E4 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E713E24DBD48100A6D6E4 /* ActionButton.swift */; };
+		CE8E714124DBD48E00A6D6E4 /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E714024DBD48E00A6D6E4 /* ProfileCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		CE8E712824DBD2BA00A6D6E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE8E712B24DBD2BA00A6D6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8E712D24DBD2BA00A6D6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8E713424DBD31700A6D6E4 /* FiraSansCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSansCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		CE8E713624DBD31700A6D6E4 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		CE8E713824DBD31700A6D6E4 /* PaytoneOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PaytoneOne-Regular.ttf"; sourceTree = "<group>"; };
+		CE8E713924DBD31700A6D6E4 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		CE8E713E24DBD48100A6D6E4 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		CE8E714024DBD48E00A6D6E4 /* ProfileCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE80EEC324DC129100EEF17E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E712324DBD2B500A6D6E4 /* ContentView.swift */,
+				CE8E713E24DBD48100A6D6E4 /* ActionButton.swift */,
+				CE8E714024DBD48E00A6D6E4 /* ProfileCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE80EEC524DC12D700EEF17E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE80EEC624DC12F900EEF17E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		CE8E711324DBD2B500A6D6E4 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +94,16 @@
 			children = (
 				CE8E711F24DBD2B500A6D6E4 /* AppDelegate.swift */,
 				CE8E712124DBD2B500A6D6E4 /* SceneDelegate.swift */,
-				CE8E712324DBD2B500A6D6E4 /* ContentView.swift */,
+				CE80EEC524DC12D700EEF17E /* Models */,
+				CE80EEC324DC129100EEF17E /* Views */,
+				CE80EEC624DC12F900EEF17E /* Controllers */,
 				CE8E712524DBD2BA00A6D6E4 /* Assets.xcassets */,
 				CE8E712A24DBD2BA00A6D6E4 /* LaunchScreen.storyboard */,
 				CE8E712D24DBD2BA00A6D6E4 /* Info.plist */,
 				CE8E712724DBD2BA00A6D6E4 /* Preview Content */,
+				CE8E713324DBD31700A6D6E4 /* Fira_Sans_Condensed */,
+				CE8E713524DBD31700A6D6E4 /* Nunito */,
+				CE8E713724DBD31700A6D6E4 /* Paytone_One */,
 			);
 			path = DatematchApp;
 			sourceTree = "<group>";
@@ -73,6 +114,31 @@
 				CE8E712824DBD2BA00A6D6E4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE8E713324DBD31700A6D6E4 /* Fira_Sans_Condensed */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E713424DBD31700A6D6E4 /* FiraSansCondensed-Regular.ttf */,
+			);
+			path = Fira_Sans_Condensed;
+			sourceTree = "<group>";
+		};
+		CE8E713524DBD31700A6D6E4 /* Nunito */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E713624DBD31700A6D6E4 /* Nunito-Regular.ttf */,
+			);
+			path = Nunito;
+			sourceTree = "<group>";
+		};
+		CE8E713724DBD31700A6D6E4 /* Paytone_One */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E713824DBD31700A6D6E4 /* PaytoneOne-Regular.ttf */,
+				CE8E713924DBD31700A6D6E4 /* OFL.txt */,
+			);
+			path = Paytone_One;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +199,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8E713D24DBD31700A6D6E4 /* OFL.txt in Resources */,
+				CE8E713B24DBD31700A6D6E4 /* Nunito-Regular.ttf in Resources */,
 				CE8E712C24DBD2BA00A6D6E4 /* LaunchScreen.storyboard in Resources */,
 				CE8E712924DBD2BA00A6D6E4 /* Preview Assets.xcassets in Resources */,
+				CE8E713C24DBD31700A6D6E4 /* PaytoneOne-Regular.ttf in Resources */,
+				CE8E713A24DBD31700A6D6E4 /* FiraSansCondensed-Regular.ttf in Resources */,
 				CE8E712624DBD2BA00A6D6E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,9 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8E714124DBD48E00A6D6E4 /* ProfileCard.swift in Sources */,
 				CE8E712024DBD2B500A6D6E4 /* AppDelegate.swift in Sources */,
 				CE8E712224DBD2B500A6D6E4 /* SceneDelegate.swift in Sources */,
 				CE8E712424DBD2B500A6D6E4 /* ContentView.swift in Sources */,
+				CE8E713F24DBD48100A6D6E4 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
